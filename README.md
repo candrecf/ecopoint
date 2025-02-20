@@ -1,4 +1,4 @@
-# Carregador Inteligente para Veículos Elétricos com Base no OpenVSE  
+# Carregador Inteligente para Veículos Elétricos com Monitoramento de Carga  
 
 ## 📌 Descrição  
 Este projeto apresenta um **carregador para veículos elétricos**, desenvolvido com **inspiração** na plataforma **OpenVSE**. Tanto o **hardware** quanto o **software** foram projetados do zero, garantindo um sistema personalizado, eficiente e adaptável às necessidades de carregamento elétrico.  
@@ -7,7 +7,7 @@ Este projeto apresenta um **carregador para veículos elétricos**, desenvolvido
 O carregador foi construído utilizando componentes robustos e confiáveis, garantindo segurança e eficiência no carregamento. Os principais elementos incluem:  
 - 🖥️ **Microcontrolador ESP32**: Responsável pelo controle e comunicação do sistema.  
 - ⚡ **Relés de potência**: Para controle do fluxo de carga.  
-- 🔌 **Medidores de corrente e tensão**: Para monitoramento em tempo real do carregamento.  
+- 🔌 **AFE90E36**: IC de medição de energia de alta precisão, essencial para monitoramento de consumo e segurança elétrica.
 - 📟 **Interface de usuário**: Display LCD/touchscreen para interação e status do carregamento.  
 - 📡 **Protocolos de comunicação**: Suporte a **Wi-Fi, Bluetooth e MQTT** para integração com sistemas de gestão e aplicativos móveis.
 
